@@ -77,10 +77,6 @@ const ProductPage = ({ addToCart }) => {
             <div className="flex flex-row">{sizeOptions}</div>
           </div>
         </div>
-        <div className="flex flex-row items-center my-4">
-          <label className="mr-2">Quantity:</label>
-          <input type="number" min="1" value={quantity} onChange={handleQuantityChange} className="border rounded-md py-2 px-4" />
-        </div>
         <button onClick={handleAddToCart} className="bg-blue-500 text-white py-2 px-4 rounded-lg">Add to Cart</button>
       </div>
     </div>
